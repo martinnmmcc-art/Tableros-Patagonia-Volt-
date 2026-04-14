@@ -1,0 +1,41 @@
+{
+  "name": "Patagonia Volt — Tableros Eléctricos",
+  "short_name": "Patagonia Volt",
+  "description": "Diseño y documentación de tableros eléctricos según norma AEA 90364",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0B1929",
+  "theme_color": "#0B1929",
+  "lang": "es-AR",
+  "categories": ["utilities", "productivity"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' fill='%230B1929'/%3E%3Cpolygon points='20,160 60,60 90,100 120,40 160,160' fill='%23152840' stroke='%23203350' stroke-width='2'/%3E%3Cpolygon points='105,20 75,90 100,90 70,160 110,80 85,80 115,20' fill='%2300BFA5'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' fill='%230B1929'/%3E%3Cpolygon points='50,420 160,160 240,260 320,100 430,420' fill='%23152840' stroke='%23203350' stroke-width='4'/%3E%3Cpolygon points='280,50 200,240 265,240 185,420 290,210 225,210 310,50' fill='%2300BFA5'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Nuevo tablero 24 módulos",
+      "short_name": "24 mód",
+      "url": "./index.html?cab=24&type=aplicar",
+      "description": "Tablero de aplicar 24 módulos"
+    },
+    {
+      "name": "Nuevo tablero 36 módulos",
+      "short_name": "36 mód",
+      "url": "./index.html?cab=36&type=embutir",
+      "description": "Tablero embutir 36 módulos"
+    }
+  ]
+}
